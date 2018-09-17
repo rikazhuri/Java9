@@ -685,25 +685,7 @@ Komuna e Deçanit shquhet për resurse të pasura natyrore, por sjelljet e pand�
                 <!--End of row-->
 				
 				
-          <!--Start of Purches-->
-        <section id="purches">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="purches_title">Donate for a better tomorrow</h2>
-                    </div>
-                    <div class="col-md-2 col-md-offset-4">
-                        <a href="" class="purches_btn">Donate</a>
-                    </div>
-                </div>
-                <!--End of row-->
-            </div>
-            <!--End of container-->
-        </section>
-        <!--End of purches-->
-
-
-
+          
         
         <!--Start of contact-->
         <section id="contact">
@@ -743,40 +725,8 @@ Komuna e Deçanit shquhet për resurse të pasura natyrore, por sjelljet e pand�
                                 <h5>Drop A Message</h5>
                             </div>
                             <div class="form_area">
-                                <!-- CONTACT FORM -->
-                                <div class="contact-form wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-                                    <div id="message"></div>
-                                    <form action="scripts/contact.php" class="form-horizontal contact-1" role="form" name="contactform" id="contactform">
-                                        <div class="form-group">
-                                            <div class="col-sm-6">
-                                                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <input type="text" class="form-control" name="email" id="email" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <input type="subject" class="form-control" id="subject" placeholder="Subject *">
-                                                <div class="text_area">
-                                                    <textarea name="contact-message" id="msg" class="form-control" cols="30" rows="8" placeholder="Message"></textarea>
-                                                </div>
-                                                <button type="submit" class="btn custom-btn" data-loading-text="Loading...">Send</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End of col-md-6-->
-                </div>
-                <!--End of row-->
-            </div>
-            <!--End of container-->
-        </section>
-        <!--End of contact-->
-
+                               
+                
 
 
         <!--Start of footer-->
@@ -824,79 +774,4 @@ Komuna e Deçanit shquhet për resurse të pasura natyrore, por sjelljet e pand�
             });
         </script>
 
-        <!--Gmaps-->
-        <script src="js/gmaps.min.js"></script>
-        <script type="text/javascript">
-            var map;
-            $(document).ready(function () {
-                map = new GMaps({
-                    el: '#map',
-                    lat: 23.6911078,
-                    lng: 90.5112799,
-                    zoomControl: true,
-                    zoomControlOpt: {
-                        style: 'SMALL',
-                        position: 'LEFT_BOTTOM'
-                    },
-                    panControl: false,
-                    streetViewControl: false,
-                    mapTypeControl: false,
-                    overviewMapControl: false,
-                    scrollwheel: false,
-                });
-
-
-                map.addMarker({
-                    lat: 23.6911078,
-                    lng: 90.5112799,
-                    title: 'Office',
-                    details: {
-                        database_id: 42,
-                        author: 'Foysal'
-                    },
-                    click: function (e) {
-                        if (console.log)
-                            console.log(e);
-                        alert('You clicked in this marker');
-                    },
-                    mouseover: function (e) {
-                        if (console.log)
-                            console.log(e);
-                    }
-                });
-            });
-        </script>
-        <!--Google Maps API-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjxvF9oTfcziZWw--3phPVx1ztAsyhXL4"></script>
-
-
-        <!--Isotope-->
-        <script src="js/isotope/min/scripts-min.js"></script>
-        <script src="js/isotope/cells-by-row.js"></script>
-        <script src="js/isotope/isotope.pkgd.min.js"></script>
-        <script src="js/isotope/packery-mode.pkgd.min.js"></script>
-        <script src="js/isotope/scripts.js"></script>
-
-
-        <!--Back To Top-->
-        <script src="js/backtotop.js"></script>
-
-
-        <!--JQuery Click to Scroll down with Menu-->
-        <script src="js/jquery.localScroll.min.js"></script>
-        <script src="js/jquery.scrollTo.min.js"></script>
-        <!--WOW With Animation-->
-        <script src="js/wow.min.js"></script>
-        <!--WOW Activated-->
-        <script>
-            new WOW().init();
-        </script>
-
-
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Custom JavaScript-->
-        <script src="js/main.js"></script>
-    </body>
-
-</html>
+       
